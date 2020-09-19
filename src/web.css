@@ -1,0 +1,76 @@
+body{
+	background-color: #666699;
+}
+.nav {
+  background-color: yellow; 
+  list-style-type: none;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
+a{
+	color: brown;
+}
+img{
+	margin-top: 10px;
+	width: 380px;
+	height: 250px;
+	margin-right: 10px;
+	text-align: center;
+}
+.all:hover{
+	padding:20px;
+	border-radius: 5px;
+	background:goldenrod;
+}
+.ourservice{
+	background-color: pink;
+}
+.ourservice h1
+{
+    font-size: 50px;
+    font-weight: bold;
+}
+.rowsetting
+{
+    display: inline-block;
+    
+}
+.form{
+	text-align:center;
+	background-color: #FFFDD0;
+}
+input{
+	width: 50%;
+	padding: 10px 20px;
+	border: 1px solid orange;
+	outline: none;
+	margin: 20px 0;
+	text-align: center;
+}
+textarea{
+	width: 50%;
+	height: 80px;
+	padding: 10px 20px;
+	border: 1px solid orange;
+	outline: none;
+	margin: 20px 0;
+	text-align: center;
+}
+button{
+	height: 24px;
+	padding: 15px 15px;
+	background: purple;
+	color: white;
+	border: 2px solid white;
+	outline: none;
+	border-radius: 5px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
